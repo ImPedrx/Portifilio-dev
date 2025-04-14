@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
+
 :root {
     
 
@@ -16,6 +17,8 @@
     --gren:#82BC4F;
     --yellow:#EABD5F;
     --fontfamily: "asap", sans-serif;
+    --Font-Incosolota: "Inconsolata", monospace;
+    --Font-Maven: "Maven Pro", sans-serif;
     --gray-100:#0D0E11;
     --gray-200:#16181D;
     --gray-300:#292C34;
@@ -26,6 +29,9 @@
     --titlelg: 700 56px/120% var(--fontfamily);
     --titlemd: 700 24px/120% var(--fontfamily);
     --titlesm: 700 16px/120% var(--fontfamily);
+    --sub: 400 20px/120% var(--Font-Incosolota);
+    --md: 400 16px 140% var(--Font-Maven);
+    --sm: 400 14px 140% var(--Font-Maven);
      
 
 

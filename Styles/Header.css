@@ -120,14 +120,6 @@
                 font: var(--titlesm);
                 color: var(--gray-400);
         }
-
-        h3 {
-                font: var(--textesm);
-                color: var(--gray-400);
-                /* width: 680px;
-                height: 40px; */
-
-        }
         
         
         padding-inline: 168px;
@@ -167,6 +159,8 @@
     flex-direction: row;
     justify-content: start;
     line-height: 120%;
+    font: var(--sm);
+    color: var(--gray-400);
 }
 
 .fundo1 {
