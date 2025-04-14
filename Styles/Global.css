@@ -16,7 +16,6 @@
     --gren:#82BC4F;
     --yellow:#EABD5F;
     --fontfamily: "asap", sans-serif;
-    --font
     --gray-100:#0D0E11;
     --gray-200:#16181D;
     --gray-300:#292C34;
@@ -36,9 +35,7 @@
 }
 
 body {
-    background-image: url(../Imagens/Background_Intro.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: #16181d;
 }
 
 

@@ -1,11 +1,4 @@
-body {
-        background-color: #1e1e1e;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        font-family: sans-serif;
-      }
+
   
       .profile-container {
         position: relative;
@@ -49,6 +42,7 @@ body {
         display: flex;
         gap: 1rem;
         flex-wrap: wrap;
+        padding-top: 80px;
         /* border: 1px solid red; */
         margin-left: 0px;
         justify-self: center;
@@ -108,17 +102,12 @@ body {
 
 
 #menu-container {
-        margin-top: 120px;
-        display: grid;
-        grid-template: 
-        "A"
-        ;
         padding-left: 163px;
         padding-right: 163px;
         padding-top: 120px;
         padding-bottom: 183px;
         gap: 80px;
-        align-self: center;
+        align-self: flex-start;
         h1{
                 font: var(--titlelg);
                 color: var(--gray-600);
@@ -180,8 +169,19 @@ body {
     line-height: 120%;
 }
 
-
+.fundo1 {
+        background-image: url(../Imagens/Background_Intro.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
 #ap {   
+
+
+  display: grid;
+
+  grid-template: 
+  "A"
+  ;
         
         margin-left: 180px;
         margin-right: 180px;
@@ -192,6 +192,9 @@ body {
         justify-self: center;
         justify-items: center;
         /* border: 1px solid red; */
+
+
+        
         
 }
 
@@ -201,4 +204,11 @@ body {
         color: white;
         display: flex;
         flex-direction: row;
+}
+
+
+.arrow-bot {
+  display: flex;
+  justify-self: center;
+  padding-top: 94px;
 }
