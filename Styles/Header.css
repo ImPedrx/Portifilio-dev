@@ -176,4 +176,13 @@
   display: flex;
   justify-self: center;
   padding-top: 94px;
+  cursor: pointer;
+  animation: jumping 1s linear infinite;
+}
+
+
+@keyframes jumping {
+  from {transform: translateY(-15px);}
+  50% {transform: translateY(0);}
+  to {transform: translateY(-15px);}
 }

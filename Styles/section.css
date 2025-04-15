@@ -1,6 +1,76 @@
 #conteudo {
+    /* display: flex; */
     height: 300vh;
     background-image: url(../Imagens/Background_Contacts.png);
     background-size: 100%;
     margin: 0  ;
+    
   }
+
+
+  #conteudo2 {
+    /* display: flex; */
+    height: 300vh;
+    background-image: url(../Imagens/Background_Contacts.png);
+    background-size: 100%;
+    margin: 0  ;
+    
+  }
+
+#conteudo2 sub,h1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.destaque {
+  display: grid;
+  /* border: 1px solid; */
+  grid-template-areas: 
+  "A B C"
+  "D E F";
+  gap: 14px;
+  padding-right: 163px;
+  padding-left: 163px;
+  width: 1040px;
+  height: 584px;
+  justify-self: center;
+}
+
+.destaque picture {
+  width: 330px;
+  height: 280px;
+  border-radius: 3%;
+  border: 1px solid;
+}
+
+.destaque :nth-child(1){
+  grid-area: A;
+  
+  
+}
+
+.destaque :nth-child(2){
+  grid-area: B;
+  
+}
+
+.destaque :nth-child(3){
+  grid-area: C;
+  
+}
+
+.destaque :nth-child(4){
+  grid-area: D;
+  
+}
+
+.destaque :nth-child(5){
+  grid-area: F;
+  
+}
+
+.destaque :nth-child(6){
+  grid-area: E;
+  
+}
