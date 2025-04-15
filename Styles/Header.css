@@ -1,39 +1,45 @@
+.tech-button img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}
+
+
 
   
-      .profile-container {
-        position: relative;
-        width: 112px;
-        height: 112px;
-        border: 4px solid #ff4b5c;
-        border-radius: 50%;
-        overflow: hidden;
-      }
-      
-      .profile-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-      }
+.profile-container {
+  position: relative; /* Necessário para que o .profile-icon seja posicionado em relação ao contêiner */
+  width: 112px;
+  height: 112px;
+  padding: 8px; /* Espaço entre a borda e a imagem */
+  background-color: #1e1e1e; /* Cor de fundo para o espaço */
+  border: 4px solid #ff4b5c;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
   
-      .profile-icon {
-        position: absolute;
-        bottom: 5px;
-        right: 5px;
-        font-size: 28px;
-        color: #39ff14;
-        background-color: #1e1e1e;
-        border: 2px solid #39ff14;
-        border-radius: 50%;
-        padding: 6px 10px;
-        font-weight: bold;
-        box-shadow: 0 0 10px #39ff14;
-        font-family: monospace;
-        z-index: 1px;
-        
-        right: 10px;
-        z-index: 1;
-      }
+.profile-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 28px;
+  color: #39ff14;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  padding: 6px 10px;
+  font-weight: bold;
+  font-family: monospace;
+  z-index: 10; /* Garante que o </> fique na frente */
+  background-clip: black  ;
+}
 
 
 
@@ -46,11 +52,14 @@
         /* border: 1px solid red; */
         margin-left: 0px;
         justify-self: center;
-
+        object-fit: cover;
+        height: 40px;
       }
       
       .tech-button {
         display: flex;
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: center; /* Centraliza horizontalmente */
         gap: 0.5rem;
         background-color: #2d2d2d;
         color: white;
@@ -60,44 +69,22 @@
         font-size: 1rem;
         cursor: default;
         transition: background 0.3s;
-        
-        
       }
       
-      .tech-button i {
-        font-size: var(--textmd);
-      }
+      
       
       /* Cores específicas por tecnologia */
 
-      .tech-button.git{
-        background-color:var(--gray-300);
-        color: var(--gray-500);
-      }
-      .tech-button.html {
-        background-color:var(--gray-300);
-        color: var(--gray-500);
-      }
-      
-      .tech-button.css {
-        background-color:var(--gray-300);
-        color: var(--gray-500);
-      }
-      
-      .tech-button.js {
-        background-color:var(--gray-300);
-        color: var(--gray-500);
-      }
-      
-      .tech-button.react {
-        background-color:var(--gray-300);
-        color: var(--gray-500);
-      }
+      .tech-button.git,
+.tech-button.html,
+.tech-button.css,
+.tech-button.js,
+.tech-button.react,
+.tech-button.node {
+  background-color: var(--gray-300);
+  color: var(--gray-500);
+}
 
-      .tech-button.node{
-        background-color:var(--gray-300);
-        color: var(--gray-500);
-      }
 
 
 
@@ -115,12 +102,7 @@
         
 
             }
-
-        h2 {
-                font: var(--titlesm);
-                color: var(--gray-400);
-        }
-        
+    
         
         padding-inline: 168px;
         margin-inline: auto;
@@ -145,6 +127,8 @@
         flex-direction: row;
         justify-content: center;
         padding-top: 56px;
+        font: var(--sub);
+        color: var(--gray-500);
 }
 
 
@@ -154,14 +138,14 @@
   justify-content: center;
 }
 
-  .Desc {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    line-height: 120%;
-    font: var(--sm);
-    color: var(--gray-400);
-}
+    .Desc {
+      text-align: center;
+      line-height: 120%;
+      font: var(--sm);
+      color: var(--gray-400);
+      width:680px;
+    }
+    
 
 .fundo1 {
         background-image: url(../Imagens/Background_Intro.png);
@@ -169,27 +153,14 @@
         background-size: 100%;
 }
 #ap {   
-
-
-  display: grid;
-
-  grid-template: 
-  "A"
-  ;
-        
-        margin-left: 180px;
-        margin-right: 180px;
-        /* border: 1px solid white; */
-        grid-area: A;
-        text-align: center;
-        width: 780px;
-        justify-self: center;
-        justify-items: center;
-        /* border: 1px solid red; */
-
-
-        
-        
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1rem;   
 }
 
 .nav {  
