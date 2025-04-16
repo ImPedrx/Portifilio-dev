@@ -1,0 +1,60 @@
+.text-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: var(--md);
+    color: var(--gray-400);
+}
+
+#contact {
+    /* width: 1366px; */
+    height: 787px;
+}
+
+.contacts div {
+    display: flex;
+    width: 400px;
+    height: 68px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    font: var(--md);
+    color: var(--gray-500);
+
+    
+}
+
+.Social-contatcs div {
+    justify-content: start;
+    padding-left: 12px;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.Social-contatcs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social-contatcs :nth-child(1) {
+    padding-left: 22px;
+}
+
+.Social-contatcs :nth-child(3) {
+    padding-right: 24px;
+    width: 11px;
+    height: 11px;
+}

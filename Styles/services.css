@@ -1,9 +1,17 @@
-#service {
-    height: 480px;
-    background-color: var(--gray-100)
-    
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+#service {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 480px;
+}
 
 .services {
     display: flex;
@@ -11,7 +19,6 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-
 }
 
 #service h1 {
@@ -24,7 +31,6 @@
     justify-content: center;
 }
 
-
 .services span {
     display: flex;
     width: 280px;
@@ -32,9 +38,6 @@
     border: 1px solid #16181D;
     border-radius: 5%;
     flex-direction: column;
-    
-    
-
 }
 
 .services img {
