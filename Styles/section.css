@@ -46,7 +46,7 @@
 
 .subdesc {
   font: var(--sm);
-  color: var(--gray-500);
+  color: var( --gray-500);
   padding-left: 12px;
   padding-top: 8px;
 }
